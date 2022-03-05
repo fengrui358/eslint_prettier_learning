@@ -11,7 +11,6 @@
     },
     "rules": {
         "prettier/prettier": "error",
-        "@typescript-eslint/indent": ["error", 4]
     },
     "plugins": [
         "prettier"
