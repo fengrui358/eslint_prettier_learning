@@ -1,5 +1,7 @@
 {
+    "parser": "@typescript-eslint/parser",
     "extends": [
+        "plugin:@typescript-eslint/recommended",
         "eslint:recommended",
         "prettier"
     ],
@@ -8,7 +10,8 @@
         "node": true
     },
     "rules": {
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "@typescript-eslint/indent": ["error", 4]
     },
     "plugins": [
         "prettier"
