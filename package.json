@@ -19,6 +19,7 @@
   "homepage": "https://github.com/fengrui358/eslint_prettier_learning#readme",
   "devDependencies": {
     "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.5.1"
   }
 }
